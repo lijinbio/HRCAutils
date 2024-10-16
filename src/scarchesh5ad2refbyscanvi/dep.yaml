@@ -1,0 +1,5 @@
+conda:
+  - scanpy
+  - scvi-tools
+pip:
+  - scarches

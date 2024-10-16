@@ -4,8 +4,8 @@ exclude .flake8 noxfile.py .coveragerc
 prune tests
 prune test_data
 
-# graft src/WRAPPER/python
-# graft src/WRAPPER/R
+graft src/scarchesh5ad2refbyscanvi/python
+graft src/scarches2predictbyscanvi/python
 
 global-include dep.yaml
 

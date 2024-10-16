@@ -11,14 +11,14 @@ CONTEXT_SETTINGS=dict(help_option_names=['-h', '--help'])
 @click.version_option()
 def main(listets):
 	"""
-Utilities of HRCAutils
+Utilities of HRCA v1.0.
 
 \b
 Example:
   HRCAutils -l
 
 \b
-Date: 2023/07/31
+Date: 2024/10/16
 Authors: Jin Li <lijin.abc@gmail.com>
 	"""
 	if listets:

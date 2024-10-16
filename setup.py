@@ -7,7 +7,7 @@ import ast
 
 from setuptools import setup, find_packages
 
-DEPENDENCIES=['click>=8.1', 'importlib-metadata', 'pathlib', 'numpy', 'pandas', 'multiprocess']
+DEPENDENCIES=['click>=8.1', 'importlib-metadata', 'pathlib']
 EXCLUDE_FROM_PACKAGES=["contrib", "docs", "tests*"]
 CURDIR=os.path.abspath(os.path.dirname(__file__))
 
@@ -26,8 +26,8 @@ setup(
     name="HRCAutils",
     author="Jin Li",
     author_email="lijin.abc@gmail.com",
-    python_requires=">=3.8",
-    description="Utilities of HRCAutils.",
+    python_requires=">=3.10",
+    description="Utilities of HRCA v1.0.",
     install_requires=DEPENDENCIES,
     packages=find_packages(
         where='src',
@@ -44,7 +44,10 @@ setup(
     entry_points={
         "console_scripts": [
             "HRCAutils=HRCAutils.HRCAutils:main", # main package
-            # "WRAPPER=WRAPPER.WRAPPER:main",
+            "exeBash=exeBash.exeBash:exeBash",
+            "exePython=exePython.exePython:exePython",
+            "scarchesh5ad2refbyscanvi=scarchesh5ad2refbyscanvi.scarchesh5ad2refbyscanvi:main",
+            "scarches2predictbyscanvi=scarches2predictbyscanvi.scarches2predictbyscanvi:main",
             ],
         },
     url="https://github.com/lijinbio/HRCAutils",
