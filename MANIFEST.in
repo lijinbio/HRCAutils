@@ -1,0 +1,16 @@
+include *.md LICENSE
+
+exclude .flake8 noxfile.py .coveragerc
+prune tests
+prune test_data
+
+# graft src/WRAPPER/python
+# graft src/WRAPPER/R
+
+global-include dep.yaml
+
+global-exclude *.py[cod]
+
+prune **/__pycache__
+prune **/main
+prune **/data
