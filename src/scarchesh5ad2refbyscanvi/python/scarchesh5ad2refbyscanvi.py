@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, balanced_accuracy_score, adjusted_rand_score
 
 if infile.endswith('.h5ad'):
-	x=sc.read(infile)
+	x=sc.read_h5ad(infile)
 else:
 	print(f'Error: format is not supported for {infile}')
 	sys.exit(-1)

@@ -19,7 +19,7 @@ print(f"Info: refmodel, unlabeled indices, {len(refmodel._unlabeled_indices)}")
 
 # query
 if infile.endswith('.h5ad'):
-	query=sc.read(infile)
+	query=sc.read_h5ad(infile)
 else:
 	print(f'Error: format is not supported for {infile}')
 	sys.exit(-1)
