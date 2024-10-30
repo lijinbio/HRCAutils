@@ -47,7 +47,7 @@ setup(
             "exeBash=exeBash.exeBash:exeBash",
             "exePython=exePython.exePython:exePython",
             "scarchesh5ad2refbyscanvi=scarchesh5ad2refbyscanvi.scarchesh5ad2refbyscanvi:main",
-            "scarches2predictbyscanvi=scarches2predictbyscanvi.scarches2predictbyscanvi:main",
+            "scarches2queryannobyscanvi=scarches2queryannobyscanvi.scarches2queryannobyscanvi:main",
             ],
         },
     url="https://github.com/lijinbio/HRCAutils",

@@ -5,7 +5,7 @@ prune tests
 prune test_data
 
 graft src/scarchesh5ad2refbyscanvi/python
-graft src/scarches2predictbyscanvi/python
+graft src/scarches2queryannobyscanvi/python
 
 global-include dep.yaml
 

@@ -30,7 +30,7 @@ Example:
   infile=Retina_sample1.h5ad
   bname=$(basename "$infile" .h5ad)
   outdir=$(mrrdir.sh)
-  scarches2predictbyscanvi -d "$outdir" -b "$bname" -e scarches -r "$reference" -k sampleid -- "$infile"
+  scarches2queryannobyscanvi -d "$outdir" -b "$bname" -e scarches -r "$reference" -k sampleid -- "$infile"
 
 \b
 Note:
@@ -46,7 +46,7 @@ See also:
     Python/scvi-tools
 
 \b
-Date: 2024/10/16
+Date: 2024/10/30
 Authors: Jin Li <lijin.abc@gmail.com>
 	"""
 	if gpu>0:
