@@ -6,5 +6,5 @@ Utilities of HRCAutils
 
 2. scarches2queryannobyscanvi: Predicts cell type labels for a query .h5ad file by referencing a pre-trained scArches model.
 
-These utilities are demonstrated in a short tutorial for constructing the HRCA reference model at https://github.com/RCHENLAB/HRCA_reproducibility/scArches.
+These utilities are demonstrated in a short tutorial for constructing the HRCA reference model at https://github.com/lijinbio/HRCA_reproducibility/tree/main/scArches.
 
